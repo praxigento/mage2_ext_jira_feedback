@@ -1,0 +1,26 @@
+{
+  "name": "praxigento/mage2_ext_jira_feedback",
+  "type": "magento2-module",
+  "license": "MIT",
+  "homepage": "https://github.com/praxigento/mage2_ext_jira_feedback",
+  "description": "Magento extension: JIRA Feedback",
+  "authors": [
+    {
+      "name": "Alex Gusev",
+      "email": "flancer64@gmail.com"
+    },
+    {
+      "name": "Vladimir Golobokov",
+      "email": "vladimirg@inbox.lv"
+    }
+  ],
+  "autoload": {
+    "files": [
+      "src/registration.php"
+    ],
+    "psr-4": {
+      "Praxigento\\JiraFeedback\\": "src/"
+    }
+  }
+}
+
