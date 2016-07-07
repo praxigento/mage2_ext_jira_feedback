@@ -1,0 +1,17 @@
+{
+    "require": {
+        "praxigento/mage2_ext_jira_feedback": "dev-master",
+        "mgtcommerce/module-mgtdevelopertoolbar": "dev-master"
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/praxigento/mage2_ext_jira_feedback"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/mgtcommerce/Mgt_Developertoolbar"
+        }
+    ],
+    "minimum-stability": "dev"
+}
