@@ -9,3 +9,5 @@ Magento extension: JIRA Feedback
     composer require praxigento/mage2_ext_jira_feedback:dev-master
 
     php bin/magento module:enable Praxigento_JiraFeedback
+    php bin/magento setup:upgrade
+    
